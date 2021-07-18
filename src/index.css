@@ -1,15 +1,8 @@
 body {
+  font-family: got;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 img{
@@ -19,14 +12,11 @@ img{
   border-top-left-radius: 15px;
 }
 
-body{
-  background-color:#e5e4e2;
-}
 
 .card-container{
   font-size: 32px;
   color: white;
-  font-weight: bold;
+  font-weight: 400;
   margin: 1em;
   text-align: center;
   background-color: transparent;
@@ -39,7 +29,6 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
   align-items: center;
   justify-content: center;
 }
@@ -48,7 +37,12 @@ body{
   min-width: fit-content;
   max-width: 25%;
   margin: auto;
-  /* text-align: center; */
   font-size: 28px;
 }
 
+
+@font-face {
+  font-family: 'got';
+  src: local(got), url(./fonts/got.ttf) format("truetype");
+  font-weight: bold;
+}

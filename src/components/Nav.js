@@ -3,11 +3,11 @@ import { Navbar, Container } from 'react-bootstrap';
 
 const Nav = (props) => {
     return(
-        <Navbar bg="dark" variant="dark" >
+        <Navbar variant="dark" >
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="#">
                     <div nav-container>
-                        <div>Game Of Thrones Houses - Memory Game</div>
+                        <div className="title">Game Of Thrones Houses - Memory Game</div>
                         <div className="score">
                             Current Score: {props.score}
                             High Score: {props.bestScore}

@@ -16,7 +16,7 @@ const  App = () => {
   }, [score])
 
   return (
-    <div className="app-container">
+    <div className="app-container font-face-got">
       <Nav score={score} bestScore={bestScore}/>
       <GameBoard setScore={setScore} score={score}/>
     </div>
