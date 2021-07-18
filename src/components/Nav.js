@@ -6,12 +6,14 @@ const Nav = (props) => {
         <Navbar bg="dark" variant="dark" >
             <Container>
                 <Navbar.Brand href="#home">
-                    Game Of Thrones Houses - Memory Game
+                    <div nav-container>
+                        <div>Game Of Thrones Houses - Memory Game</div>
+                        <div className="score">
+                            Current Score: {props.score}
+                            High Score: {props.bestScore}
+                        </div>
+                    </div>
                 </Navbar.Brand>
-                <div>
-                    <div>Current Score: {props.score}</div>
-                    <div>High Score: {props.bestScore}</div>
-                </div>
             </Container>
         </Navbar>
     )
