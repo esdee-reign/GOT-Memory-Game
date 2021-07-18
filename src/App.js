@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState, useEffect} from 'react';
+import GameBoard from './components/GameBoard/GameBoard';
+import Nav from './components/Nav';
 
-function App() {
+
+const  App = () => {
+
+  const [score, setScore] = useState(0);
+  const [bestScore, setBestScore] = useState(0);
+
+  useEffect(() => {
+    if (score > bestScore){
+      setBestScore(score);
+    }
+  }, [score])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <Nav score={score} bestScore={bestScore}/>
+      <GameBoard setScore={setScore} score={score}/>
     </div>
   );
 }
