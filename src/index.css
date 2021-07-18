@@ -17,7 +17,8 @@ img{
   font-size: 32px;
   color: white;
   font-weight: 400;
-  margin: 1em;
+  margin: .5em;
+  padding: 0 16px;
   text-align: center;
   background-color: transparent;
   border-radius: 12px;
@@ -31,6 +32,7 @@ img{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 80px;
 }
 
 .score-container{
@@ -40,9 +42,17 @@ img{
   font-size: 28px;
 }
 
+.score{
+  text-align: right;
+}
+
 
 @font-face {
   font-family: 'got';
   src: local(got), url(./fonts/got.ttf) format("truetype");
   font-weight: bold;
+}
+
+.title {
+  margin-right: 110px;
 }

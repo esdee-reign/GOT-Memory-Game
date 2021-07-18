@@ -1,5 +1,4 @@
 import React, {useState, useEffect } from 'react';
-import './GameBoard.css';
 import HouseCard from '../HouseCard';
 import houseList from '../houseList.json';
 
