@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/GOT-Memory-Game/static/css/main.5ed1cfdf.chunk.css",
-    "main.js": "/GOT-Memory-Game/static/js/main.cea42f6e.chunk.js",
-    "main.js.map": "/GOT-Memory-Game/static/js/main.cea42f6e.chunk.js.map",
+    "main.css": "/GOT-Memory-Game/static/css/main.13ae0e55.chunk.css",
+    "main.js": "/GOT-Memory-Game/static/js/main.a6fa3d0e.chunk.js",
+    "main.js.map": "/GOT-Memory-Game/static/js/main.a6fa3d0e.chunk.js.map",
     "runtime-main.js": "/GOT-Memory-Game/static/js/runtime-main.2faf73e3.js",
     "runtime-main.js.map": "/GOT-Memory-Game/static/js/runtime-main.2faf73e3.js.map",
     "static/css/2.4be38407.chunk.css": "/GOT-Memory-Game/static/css/2.4be38407.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.6b8a3e6d.chunk.js.map": "/GOT-Memory-Game/static/js/2.6b8a3e6d.chunk.js.map",
     "index.html": "/GOT-Memory-Game/index.html",
     "static/css/2.4be38407.chunk.css.map": "/GOT-Memory-Game/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.5ed1cfdf.chunk.css.map": "/GOT-Memory-Game/static/css/main.5ed1cfdf.chunk.css.map",
+    "static/css/main.13ae0e55.chunk.css.map": "/GOT-Memory-Game/static/css/main.13ae0e55.chunk.css.map",
     "static/js/2.6b8a3e6d.chunk.js.LICENSE.txt": "/GOT-Memory-Game/static/js/2.6b8a3e6d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/GOT-Memory-Game/static/media/got.71fa190a.ttf"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.2faf73e3.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.6b8a3e6d.chunk.js",
-    "static/css/main.5ed1cfdf.chunk.css",
-    "static/js/main.cea42f6e.chunk.js"
+    "static/css/main.13ae0e55.chunk.css",
+    "static/js/main.a6fa3d0e.chunk.js"
   ]
 }
